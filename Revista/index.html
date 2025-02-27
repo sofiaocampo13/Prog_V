@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCA</title> <!--Título de la pestaña-->
+    <link rel="stylesheet" type="text/css" href="estilo.css"> <!--rel para indicar que se está 
+    importando una hoja de estilos. type para definir el tipo de contenido que se enlaza (para este caso,
+    una hoja de estilos, text)-->
+</head>
+
+<body>
+    <h1>Revista Colombiana de Anestesiología</h1> <!--Título de la cabecera-->
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobrenosotros">Sobre nosotros</a></li>
+        <li><a href="#footer">Contacto</a></li>
+      </ul>
+   </nav>
+
+   <!--id para referenciar en el mismo documento y class para dar estilo en css-->
+   <section id="inicio" class="contenido"> <!--Section para dividir información en secciones, id para modificar-->
+    <br>
+    <h2>Noticias</h2>
+    <br>
+    <table border>
+        <thead>
+            <tr class="titulosnoticias"> 
+                <th>¿Cuáles son las nuevas tendencias en salud?</th>
+                <th>Desabastecimiento de anestésicos: ¿cuál es el panorama actual?</th>
+                <th>El calentamiento global como desafío de salud pública</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="noticia1">
+                  <p>La revista InfoSCARE analiza las tendencias en salud, destacando modelos de atención integral, la evolución 
+                    hacia una atención más centrada en el paciente y el impacto de la tecnología en la gestión sanitaria. 
+                    Se promueve el trabajo en redes, la mejora del bienestar del personal de salud y el uso de herramientas 
+                    digitales como las historias clínicas electrónicas. </p> 
+                    <br>
+                    <div class="img1"> 
+                      <img src="img/infoscare_final.png" height="200" width="300" alt="InfoSCARE">
+                    </div>
+                    <br>
+                    <a href="https://scare.org.co/noticias/cuales-son-las-nuevas-tendencias-en-salud/" target="_blank">
+                      Más información </a>
+                </td> 
+                <td class="noticia2">
+                  <p>El desabastecimiento de medicamentos afecta la atención médica y quirúrgica, con riesgos clínicos y costos 
+                    elevados. Sus causas incluyen aumento de la demanda, fallas en producción y regulación. Se requiere mejorar la
+                    gestión de suministros y fortalecer la producción local. Los anestesiólogos pueden reportarlo al INVIMA.</p>
+                    <br>
+                    <div class="img2">
+                      <img src="img/medicamentos.jpg" height="200" width="300" alt="Desabastecimiento Medicamentos">
+                    </div>
+                    <br>
+                    <a href="https://revistainfoscare.com/hablemos-de-seguridad/desabastecimiento-de-anestesicos-cual-es-el-panorama-actual/" 
+                    target="_blank"> Más información </a>
+                </td>
+                <td class="noticia3">
+                  <p>
+                    Los incendios forestales de 2024 en Latinoamérica, agravados por el Fenómeno del Niño y el calentamiento global, 
+                    causaron devastación ambiental y problemas de salud. Además, el cambio climático aumenta enfermedades, escasez 
+                    de agua y riesgos cardiovasculares. Es crucial fortalecer los sistemas de salud y reducir emisiones para mitigar 
+                    sus efectos en la población y el medioambiente. </p>
+                    <br>
+                    <div class="img3">
+                      <img src="img/medioambiente.jpg" height="200" width="300" alt="Problemas de Salud">
+                    </div>
+                    <br>
+                    <a href="https://revistainfoscare.com/actualidad/el-calentamiento-global-como-desafio-de-salud-publica/" 
+                    target="_blank"> Más información </a>
+                </td>
+        </tbody>
+    </table>
+   </section>
+
+   <br>
+
+   <section id="sobrenosotros" class="nosotros">
+    <br>
+    <h3>Sobre Nosotros</h3>
+    <br>
+    <div>
+      <p>La Revista Colombiana de Anestesiología (RCA) es una publicación científica y académica dedicada a la difusión del 
+        conocimiento en anestesiología y áreas afines. Nuestro objetivo es fortalecer la educación continua, promover la 
+        investigación y compartir innovaciones en el sector salud, con énfasis en la seguridad del paciente y el bienestar 
+        del talento humano en anestesia.</p>
+    </div>
+
+    <br>
+    
+    <table border>
+        <thead>
+            <tr class="misionyvision"> 
+                <th>Misión</th>
+                <th>Visión</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                  <p>Ser una fuente de referencia en anestesiología, proporcionando contenido científico de calidad que 
+                    contribuya a la formación y actualización de profesionales de la salud. Buscamos impulsar la seguridad 
+                    del paciente, la innovación y la excelencia en la práctica anestésica a nivel nacional e internacional.</p> 
+                </td> 
+                <td>
+                  <p>Para 2030, ser la revista líder en anestesiología en América Latina, reconocida por su rigor científico, 
+                    impacto en la comunidad médica y contribución a la mejora continua de la atención en salud. Queremos ser un
+                    espacio de encuentro para la investigación, el debate y la formación del talento humano en anestesiología.</p>
+                </td>
+        </tbody>
+    </table>
+   </section>
+
+   <br>
+
+   <footer id="footer" class="piedepagina">
+    <p>Derechos de autor © 2025. RCA.</p>
+    <div class="infoimportante">
+      <p>Contáctanos: <a href="mailto:info@rcolanestesiologia.com">
+        info@rcolanestesiologia.com</a></p>
+      <ul>
+        <li><a href="">Política de Privacidad</a></li>
+        <li><a href="">Términos de Uso</a></li>
+      </ul>
+    </div> 
+   </footer>
+</body>
+</html>

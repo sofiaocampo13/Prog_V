@@ -1,0 +1,93 @@
+*{
+    padding: 0; /* Se establece en 0 para que el anterior padding y margin
+    no afecte a los elementos */
+    margin: 0;
+}
+h1 {
+    text-align: center; /* Alinea el código en la mitad */
+    background-color: #5789d4;
+    color: white;
+    padding: 20px; /* Separa el texto un poco del fondo */
+}
+nav ul {
+    text-align: center;
+    background-color: #becbcf;
+    width: 100%; /* Al 100% para que ocupe todo el ancho de 
+    la pantalla */
+    list-style-type: none; /* None para que ya no salga como
+    una lista */
+}
+
+nav li {
+    display: inline-flex; /* Acomoda la lista de forma horizontal */
+}
+
+nav a {
+    text-decoration: none; /* Sin decoración para eliminar la
+    línea debajo */
+    color: #385786;
+    padding: 5px;
+    width: 100px; /* Para separ las partes del menú */
+}
+
+.contenido h2 {
+    text-align: center;
+    color: #0c1b31;
+}
+.contenido .titulosnoticias {
+    color: #385786;
+    font-size: large;
+}
+
+.noticia1 {
+    text-align: center;
+    color: black;
+}
+
+.noticia1 .img1{
+    text-align: center;
+    color: black;
+}
+
+.noticia2 {
+    text-align: center;
+    color: black;
+}
+
+.noticia2 .img2{
+    text-align: center;
+}
+
+.noticia3 {
+    text-align: center;
+    color: black;
+}
+
+.noticia3 .img3{
+    text-align: center;
+}
+
+.nosotros {
+    text-align: center;
+}
+
+.nosotros h3 {
+    color: #0c1b31;
+}
+
+.nosotros .misionyvision {
+    color: #385786;
+}
+
+.piedepagina {
+    text-align: center;
+    background-color: #5789d4;
+    color: #0c1b31 ;
+    width: 100%;
+    padding: 10px;
+}
+
+.piedepagina a {
+    text-decoration: none;
+    color: #0c1b31;
+}
